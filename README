@@ -1,0 +1,27 @@
+This is Eric's personal configuration of zsh
+Please rename <oh-my-zsh> and <zshrc> with . prefix under "~/" directory
+
+Change default shell to zsh:
+  chsh -s $(which zsh)
+
+Display current shell
+  echo $0
+
+Find where zsh locates
+  which zsh
+
+Install "oh My ZSH"
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+Change theme, find environment variable, "ZSH_THEME"
+  vi ~/.zshrc
+
+Install Powerline fonts for theme "agnoster", and
+change the terminal font setting  "Meslo LG DZ for Powerline" font.
+  git clone https://github.com/powerline/fonts.git
+  cd fonts
+  ./install.sh
+
+
+Reference:
+https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/
